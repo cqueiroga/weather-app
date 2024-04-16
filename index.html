@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather App</title>
+		<link rel="stylesheet" href="css/styles.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</head>
+	<body>
+		<div class="background-container">
+			<div id="search-container">
+				<input id="zipCodeInput" type="text" placeholder="Enter Zip Code..." />
+				<button type="button" id="searchBtn">Search</button>
+			</div>
+			<div id="temperature-content">
+				<div id="today-temperature-content">
+					<h3 id="location"></h3>
+					<h3 class="temperature" id="todayTemp"></h3>
+					<h4 class="shortForecast" id="todayShortForecast"></h4>
+				</div>
+				<div id="forecast-title"><p>5-Day Forecast</p></div>
+				<div id="weekly-temperature-content"></div>
+			</div>
+		</div>
+	</body>
+</html>

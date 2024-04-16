@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "NotoSansOsmanya";
+    src: url("fonts/NotoSansOsmanya-Regular.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'NotoSansOsmanya', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+.background-container {
+    background: rgb(0,107,129);
+    background: linear-gradient(0deg, rgba(0,107,129,1) 0%, rgba(0,212,255,1) 100%);
+    padding: 10px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#search-container input {
+    color: black;
+}
+
+#today-temperature-content{
+    margin-bottom: 25px;
+}
+
+#temperature-content {
+    margin: 10px auto;
+    text-align: center;
+    width: 1215px;
+}
+
+#todayTemp {
+    font-size: 5em;
+}
+
+#todayShortForecast {
+    font-size: 1.3em;
+}
+
+#forecast-title {
+    background-color: rgba(12, 114, 216, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    width: 1200px;
+    font-size: 1.4em;
+    margin-top: 250px;
+}
+
+#weekly-temperature-content {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(30, 144, 255, .5);
+    padding: 10px;
+    border-radius: 10px;
+    width: 1200px;
+}
+
+.weekly-temperature-container {
+    text-align: center;
+}
+
+#weekly-forecast-title {
+    margin: 10px auto;
+}
+
+.weekday, .weeklyTemp {
+    font-size: 1.3em;
+}
+
+.weekly-temperature-container img {
+    margin: 10px;
+}
+
+h3#location {
+    height: 26px;
+}
+
+#zipCodeInput {
+    padding: 3px;
+}
+
+#searchBtn {
+    width: 70px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(30, 144, 255, .5);
+}
